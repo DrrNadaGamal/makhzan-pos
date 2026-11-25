@@ -1,0 +1,17 @@
+{
+  "name": "makhzan-pos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Makhzan: bilingual (Arabic RTL / English) inventory and point-of-sale demo for small shops",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "dev": "node dev-server.mjs"
+  },
+  "dependencies": {
+    "@vercel/blob": "^0.27.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.18.1"
+  }
+}
